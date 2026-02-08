@@ -1,0 +1,13 @@
+{
+  "name": "opencode-copilot-models",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": ["src"],
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.0.166"
+  }
+}
